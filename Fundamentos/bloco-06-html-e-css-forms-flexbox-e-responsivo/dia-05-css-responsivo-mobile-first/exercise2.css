@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 2%;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  font-size: 0.9em;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 0.9em;
+}
+
+@media screen and (min-width: 960px) {
+  
+  body {
+    margin: 5%;
+    font-size: 1.1em;
+  }
+  
+  ul {
+    font-size: 0.8em;
+  }
+  
+  h1 {
+    font-size: 1.1em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  
+  body {
+    margin: 6%;
+    font-size: 1em;
+  }
+  
+  ul {
+    font-size: 1em;
+  }
+  
+  h1 {
+    font-size: 1.3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+}

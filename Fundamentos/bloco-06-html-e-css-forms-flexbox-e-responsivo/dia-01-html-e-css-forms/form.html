@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrybeTrip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <h1>Header da página</h1>
+  </header>
+  <form action="" method="get">
+    <main id="main-content">
+      <div class="line">
+        <label for="full-name">Nome:</label>
+        <input id="full-name" type="text" name="full-name" minlength="10" maxlength="40" required>
+      </div>
+      <div class="line">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" minlength="10" maxlength="50" required>
+      </div>
+      <div class="line">
+        <input type="radio" name="destination" id="option1">
+        <label for="option1">Cidade</label>
+        <input type="radio" name="destination" id="option2">
+        <label for="option2">Campo</label>
+        <input type="radio" name="destination" id="option3">
+        <label for="option3">Praia</label>
+        <input type="radio" name="destination" id="option4">
+        <label for="option4">Montanhas</label>
+      </div>
+      <div class="line">
+        <label for="answer">Espaço para digitar a resposta:</label>
+        <textarea name="answer" id="answer" cols="30" rows="10" maxlength="500"
+          placeholder="Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?"></textarea>
+      </div>
+      <div class="line">
+        <label for="">Data:</label>
+        <input type="date" name="dataViagem" id="dataViagem">
+      </div>
+      <div class="line">
+        <h5>Gostaria de receber outras opotunidades da Trybe?</h5>
+        <input type="checkbox" name="opotunidade" id="oportunity" value="true">
+        <label for="oportunity"> Concordo</label>
+      </div>
+      <div class="line">
+        <h5>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros?</h5>
+        <input type="checkbox" name="minhasImagens" id="guidelines">
+        <label for="guidelines">Concordo</label>
+      </div>
+    </main>
+    <footer>
+      <button type="submit" id="send">Enviar</button>
+      <!-- <button type="reset">Apagar</button> -->
+    </footer>
+  </form>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

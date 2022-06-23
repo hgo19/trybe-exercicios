@@ -1,0 +1,43 @@
+ 1525  mkdir unix_tests
+ 1526  ls
+ 1527  cd unix_tests
+ 1528  touch trybe.txt
+ 1529  cp trybe.txt trybe_backup.txt
+ 1530  ls
+ 1531  mv trybe.txt trybe1.txt
+ 1532  mkdir backup
+ 1533  ls
+ 1534  mv trybe_backup.txt ./bakcup
+ 1535  mkdir backup2
+ 1536  ls
+ 1537  cd backup
+ 1538  ls
+ 1539  clear
+ 1540  cd ..
+ 1541  rm -rf unix_tests
+ 1542  clear
+ 1543  mkdir unix_tests
+ 1544  cd unix_tests
+ 1545  touch trybe.txt
+ 1546  cp trybe.txt trybe_backup.txt
+ 1547  ls
+ 1548  mv trybe.txt trybeold.txt
+ 1549  mkdir backup
+ 1550  mv trybe_backup.txt ./backup
+ 1551  ls
+ 1552  mkdir backup2
+ 1553  cd backup
+ 1554  ls
+ 1555  mv trybe_backup.txt ../backup2
+ 1556  cd ..
+ 1557  ls *
+ 1558  rmdir backup
+ 1559  ls
+ 1560  mv backup2 backup
+ 1561  pwd
+ 1562  ls -a
+ 1563  rm -rf backup
+ 1564  ls
+ 1565  clear
+ 1566  history
+ 1567  history | tail -43 | cat > exercicios-unix-e-shell-1.txt

@@ -1,0 +1,26 @@
+ 2079  ls -la
+ 2080  cat trybe skills.txt
+ 2081  ls -la
+ 2082  git status
+ 2083  git branch
+ 2084  git checkout master
+ 2085  git branch -d trybe-skills-changes 
+ 2086  git branch
+ 2087  ls -la
+ 2088  git status
+ 2089  git checkout -b trybe-skills-changes
+ 2090  cat trybe-skills.txt
+ 2091  cat >> trybe-skills.txt 
+ 2092  cat trybe-skills.txt 
+ 2093  git add  trybe-skills.txt
+ 2094  git commit -m "Adicionado novas skills"
+ 2095  git push -u origin trybe-skills-changes
+ 2096  git checkout master
+ 2097  git branch
+ 2098  git checkout -b trybe-skills-updates
+ 2099  git branch
+ 2100  cat >> trybe-skills.txt
+ 2101  git add trybe-skills.txt
+ 2102  git commit -m "Adicionado skill Java"
+ 2103  git push -u origin trybe-skills-updates
+ 

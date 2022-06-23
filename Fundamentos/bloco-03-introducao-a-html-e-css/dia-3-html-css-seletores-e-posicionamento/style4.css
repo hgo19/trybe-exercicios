@@ -1,0 +1,32 @@
+div:hover {
+    border: 5px solid black;
+}
+
+#divisao1 {
+    color:darkgreen;
+    width: 300px;
+}
+
+#divisao2 {
+    color:goldenrod;
+    width: 300px;
+}
+
+#divisao3 {
+    color:burlywood;
+    width: 500px;
+}
+
+#divisao4 {
+    color:darkslateblue;
+    width: 300px;
+}
+
+#divisao5 {
+    color:lightblue;
+    width: 300px;
+}
+
+#cor1, #cor3, #cor5 {
+   font-style: italic; 
+}
