@@ -66,7 +66,8 @@ const books = [
 
 
 function nameAndAge(array) {
-  return array.map((element) => ({name: element.author.name, age: element.releaseYear - element.author.birthYear})).sort((a, b) => a.age - b.age);
+  return array.map((element) => ({name: element.author.name, age: element.releaseYear - element.author.birthYear}))
+  .sort((a, b) => a.age - b.age);
 }
 
 console.log(nameAndAge(books));
