@@ -1,6 +1,6 @@
 const append = async (param) => {
-  const convertUsdUrl = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json';
-  const response = await fetch(convertUsdUrl);
+  const apiUrl = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json';
+  const response = await fetch(apiUrl);
   const data = await response.json();
   const brl = data.usd.brl;
   const listContainer = document.querySelector('#assets-container');
