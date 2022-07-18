@@ -18,9 +18,9 @@ const setAsset = async (param) => {
   append(selectedCoin);
 }
 
-const finalProcess = () => {
+const finalProcess = async () => {
   for (let i = 1; i <= 10; i += 1) {
-    setAsset(`${i}`);
+    await setAsset(`${i}`);
   }
 }
 
