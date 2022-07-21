@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <header id='header'>
+        <header key='header' id='header'>
           <h1>Pokédex</h1>
         </header>
         <Pokedex data={data} />
